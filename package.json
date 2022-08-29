@@ -1,0 +1,17 @@
+{
+  "name": "vitepress-starter",
+  "version": "1.0.0",
+  "description": "vitepress starter",
+  "main": "index.js",
+  "author": "Xin",
+  "license": "MIT",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs"
+  },
+  "devDependencies": {
+    "vitepress": "^1.0.0-alpha.12",
+    "vue": "^3.2.37"
+  }
+}
