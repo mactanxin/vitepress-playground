@@ -5,7 +5,7 @@ export default {
   themeConfig: {
     siteTitle: 'Xin Vitepress',
     nav: nav(),
-    sidebar: sideBarnav(),
+    sidebar: sideBarNav(),
     /* sidebar: { */
     /*   '/guide/': sidebarGuide(), */
     /*   '/config/': sidebarConfig() */
@@ -21,7 +21,7 @@ function nav() {
 }
 
 // 侧边栏
-function sideBarnav () {
+function sideBarNav () {
   return [
     {
       text: 'Home',
